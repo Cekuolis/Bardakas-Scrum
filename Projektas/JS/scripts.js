@@ -59,3 +59,8 @@ $(function () {
   $('[data-toggle="popover"]').popover()
 })
 
+//Reserving a room
+let StandardSingleLeft = 18;
+let bookButton = document.getElementById('SSbook');
+
+
