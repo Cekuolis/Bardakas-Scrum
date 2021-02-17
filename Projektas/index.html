@@ -42,36 +42,40 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
-        <div class="container">
+        <div class="container-fluid">
+           <div class="row">
+           <div class="col-md-9">
             <div class="masthead-subheading">Welcome To Bardakas!</div>
             <div class="masthead-heading text-uppercase">We hope you enjoy your stay</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Daugiau informacijos</a>
-        </div>
-        <div class="col-md-2 offset-md-9">
-        <form class="quick-registration border rounded" title="Booking engine">
-     <div class="input-group mb-2 mr-sm-2">
-   <div class="form-group "> <!-- Date input -->
+         </div>
+         <div class="col-md-3">
+        <form class="quick-registration border rounded mx-5" title="Booking engine">
+     <div class="input-group">
+   <div class="form-group my-4 mx-2"> <!-- Date input -->
        <center>
-       <small>
-        <label class="control-label my-2" for="date">Arrival</label>
-        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
-        <label class="control-label my-2" for="date">Departure</label>
-        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
-        <label class="control-label my-2" for="FormCustomSelect">Rooms</label>
-        <select class="room-select my-2 custom-select-sm" id="FormCustomSelect">
-        <option selected>Choose...</option>
-        <option value="single">1x single</option>
-        <option value="double">1x double</option>
-        <option value="other">Other options</option>
-      </select>
-      <label class="control-label" for="promo-code">Promo code</label>
-        <input class="form-control" id="promo" name="promo-code" type="text"/>
+        <label class="control-label" for="date">Arrival</label>
+        <input class="form-control my-2" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+        <label class="control-label" for="date">Departure</label>
+        <input class="form-control my-2" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+        <div class="form-group my-2">
+    <label for="room-select">Rooms</label>
+    <select class="form-control my-2" id="room-select">
+      <option>Standard Single</option>
+      <option>Standard Double</option>
+      <option>Superior</option>
+      <option>Suite</option>
+      <option>Luxury</option>
+    </select>
+  </div>
         <button class="btn btn-success my-2" id="book">Book now</button>
-      </small>
       </center>
       </div>
 			</div>
    </form>
+   </div>
+         </div>
+        
    </div>
     </header>
     <main>
