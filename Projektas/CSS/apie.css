@@ -1,0 +1,17 @@
+.about {
+    background-color: #212529;
+    border-radius: 7px;
+}
+
+.about p {
+    margin: 40px 20px;
+}
+
+.about h3 {
+    margin: 20px 0px;
+}
+
+.heading {
+    background-color: #36393dda;
+    border-radius: 7px;
+}
